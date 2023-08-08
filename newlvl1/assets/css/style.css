@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/Lexend_Deca/LexendDeca-Bold.ttf);
+}
+@font-face {
+  font-family: "Med";
+  src: url(../fonts/Lexend_Deca/LexendDeca-Medium.ttf);
+}
+@font-face {
+  font-family: "Reg";
+  src: url(../fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+@font-face {
+  font-family: "light";
+  src: url(../fonts/Lexend_Deca/LexendDeca-Light.ttf);
+}
+:root {
+  --bold: "Bold";
+  --med: "Med";
+  --reg: "Reg";
+  --light: "Light";
+}
+body {
+  background-color: #f8fafb;
+}
+.logoname {
+  font-family: var(--reg);
+  font-size: 28px;
+}
+.logo {
+  width: 38px;
+  height: 38px;
+}
+.search {
+  font-family: var(--light);
+  color: #a7a7a7;
+  font-size: 20px;
+}
+::placeholder {
+  font-family: var(--light);
+  color: #a7a7a7;
+  font-size: 20px;
+}
+.searchimg {
+  width: 24px;
+  height: 24px;
+}
+.navbar {
+  border-bottom: 1px solid #e8e8e8;
+}
+.hi {
+  width: 65px;
+  height: 65px;
+}
+.gavano {
+  font-family: var(--med);
+  font-size: 26px;
+}
+.hr {
+  font-family: var(--reg);
+  color: #a4a4a4;
+  font-size: 11px;
+}
+#left {
+  border-right: 1px solid #e8e8e8;
+}
+#myrow {
+  margin-left: -24px;
+}
+
+.dashtext {
+  color: #5932ea;
+  font-family: var(--med);
+  font-size: 20px;
+}
+#dashimg {
+  width: 35px;
+  height: 35px;
+}
+#menubox {
+  width: 103.5%;
+}
+#menuimg {
+  width: 30px;
+  height: 30px;
+}
+.menutext {
+  font-family: var(--light);
+  font-size: 20px;
+}
+#menubox:hover {
+  background-color: #f8f8f8;
+  color: #5932ea;
+  font-family: var(--bold);
+}
+.menuitems {
+  border-bottom: 1px dashed #e0e0e0;
+  border-bottom-width: 110%;
+}
+#right {
+  background-color: #f8fafb;
+  height: 1000px;
+}
+#fourbox {
+  background-color: white;
+  height: 170px;
+  max-width: 250px;
+}
+.box-text {
+  font-family: var(--med);
+  font-size: 16px;
+}
+.greenbox {
+  background: #23c10a26;
+}
+.redbox {
+  background: #c10a0a26;
+}
+.arrow {
+  width: 14px;
+  height: 14px;
+}
+.percent {
+  color: #0b8a00;
+}
+.percent-red {
+  color: #c71026;
+}
+.greenbox {
+  height: 23px;
+}
+.redbox {
+  height: 23px;
+}
+.num {
+  font-family: var(--med);
+  font-size: 28px;
+}
+.employees {
+  font-family: var(--reg);
+  font-size: 14px;
+  color: #949494;
+}
+.card {
+  height: 70px;
+}
+#statistic {
+  width: 1093px;
+  height: 362px;
+}
+@media screen and (max-width: 1025px) {
+  #mycontainer {
+    display: none;
+  }
+  #mycontainer2 {
+    display: none;
+  }
+  .perm {
+    font-size: 16px;
+  }
+}
+.dropbtn {
+  background-color: #f6f6f6;
+  font-size: 16px;
+  color: #1a2b88;
+  font-family: var(--reg);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  background-color: #f6f6f6;
+  min-width: 160px;
+}
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+  color: #1a2b88;
+  font-family: var(--reg);
+}
+.dropdown-content a:hover {
+  background-color: #16c098;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 10px;
+}
+#mycontainer {
+  background-image: url(../images/Statistics.png);
+  height: 345px;
+}
+#myfluid {
+  overflow-x: hidden;
+}
+#filterbtn {
+  background-color: #f6f6f6;
+  font-family: var(--reg);
+  color: #1a2b88;
+}
+.last-one {
+  border: 2px solid #eceef6;
+  background-color: white;
+}
+th {
+  font-family: var(--light);
+  font-size: 13px;
+}
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.plus {
+  color: #16c098;
+}
+.perm {
+  background-color: #16c09833;
+  color: #16c098;
+  font-size: 16px;
+}
+.cont {
+  color: #5c5c5c;
+  background-color: #afafaf33;
+}
+.last-two {
+  border: 2px solid #eceef6;
+  background-color: white;
+}
+@media screen and (max-width: 800px) {
+  .perm {
+    font-size: 10px;
+  }
+}
